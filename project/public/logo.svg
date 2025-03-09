@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Circle with thicker stroke -->
+  <circle cx="100" cy="100" r="90" stroke="#ea580c" stroke-width="30" fill="none" />
+
+  <!-- Pie Slice -->
+  <path d="M100,100 L100,10 A90,90 0 0,1 155.88,44.12 Z" fill="#ea580c" />
+
+  <!-- Square Element -->
+  <rect x="90" y="190" width="15" height="15" transform="rotate(45 90 190)" fill="#ea580c" />
+</svg>
