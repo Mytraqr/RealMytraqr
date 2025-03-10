@@ -1,0 +1,12 @@
+[build]
+  # Adjust this based on your framework:
+  # For Vite: "dist"
+  # For Create React App: "build"
+  # For Next.js: ".next"
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
